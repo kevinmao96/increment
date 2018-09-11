@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app" ng-cloak>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SION</title>
+
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+	<link rel="icon" href="assets/images/favicon.png" type="image/png">
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+
+	<link href="assets/css/angular-material.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/angular-notify.min.css" rel="stylesheet">
+
+
+	<!-- JS files -->
+	<script type="text/javascript" src="assets/js/core/angular.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/angular-route.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/angular-local-storage.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/moment.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/app.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui-bootstrap-tpls-0.13.0.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/angular-material.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/angular-animate.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/angular-aria.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/angular-notify.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/angular-base64.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/chart.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/angular-chart.min.js"></script>
+	<script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+
+</head>
+
+<body ng-controller="ctrDefault">
+	
+
+	<!-- Page container -->
+	<div class="page-container">
+
+		<!-- Page content -->
+		<div class="page-content" >
+
+			
+			<!-- /main sidebar -->
+			<!-- Main content -->
+			<div class="content-wrapper">
+
+				<!-- Content area -->
+				<div class="content">
+
+					<div class="container-fluid">
+						<div class="row">
+							<div ng-view>
+								
+							</div>
+						</div>
+					</div>
+					
+
+
+					<!-- Footer -->
+					<div class="footer text-muted">
+						&copy; 2018. <a href="#/">SION</a> by <a href="https://okweb.co/" target="_blank">Ok Web</a>
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+			</div>
+			<!-- /main content -->
+		</div>
+		<!-- /page content -->
+	</div>
+	<!-- /page container -->
+</body>
+
+<!-- Angular JS -->
+<script src="assets/js/routes.js"></script>
+<script src="assets/js/services.js"></script>
+<script src="assets/js/functions.js"></script>
+<script src="assets/js/service-webcam.js"></script>
+<script src="components/default/default.js"></script>
+
+</html>
